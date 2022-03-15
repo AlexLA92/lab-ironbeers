@@ -1,12 +1,12 @@
 <div class = "beers-container">
     {{#each beers}}
-        <div class = "beer-info">
-            <div class = "beer-img-container">
-                <img src = {{this.image_url}}>
+        {{#with this}}
+            <div class = "beer-info">
+                <div class = "beer-img-container">
+                    <img src = {{this.image_url}}>
+                </div>
+                {{>beerpartial}}
             </div>
-            <h1>{{this.name}}</h1>
-            <p class = "description">{{this.description}}</p>
-            <p class = "tagline">{{this.tagline}}</p>
-        </div>
+        {{/with}}
     {{/each}}
 </div>

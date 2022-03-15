@@ -107,7 +107,7 @@ header li {
     width: 50rem;
 }
 
-.random-info-container  h1{
+.beer-info-container  h1{
     margin-top: 2rem;
 }
 
@@ -116,6 +116,9 @@ header li {
 }
 
 
+.beer-info-container  p{
+    margin-top: 1rem;
+}
 .random-info-container  p{
     margin-top: 1rem;
 }
@@ -124,7 +127,7 @@ header li {
     padding-top: 0.3rem;
 }
 
-.random-info-container  .tagline{
+.beer-info-container  .tagline{
     color: grey;
 }
 
