@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
 /*
 white: #f7f9f9;
 light-blue: #2081c3;
@@ -5,3 +7,142 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+* {
+    margin:0;
+    font-family: 'Fredoka';
+}
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+  }
+
+header{
+    background-color:  #2081c3;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    box-shadow: 0 5px 20px black;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header li {
+    padding: 1rem;
+    font-weight:bold;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.home-button p {
+    color: white;
+    box-shadow: 0 3px 20px black;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #2081c3;
+}
+
+.home-container img {
+    width: 30rem;
+    margin: 2rem;
+}
+
+.beers-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.beer-info {
+    width: 20rem;
+    margin: 2rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: grey 1px solid ;
+    border-radius: 30px;
+}
+
+.beer-info .tagline{
+    font-style: italic;
+}
+
+.beer-info .description{
+    height: 20rem;
+}
+
+.beer-info {
+    text-align: center;
+}
+.beer-info h1 {
+    margin-bottom: 1rem;
+}
+
+.beer-info p {
+   font-size: 0.9rem;
+}
+
+.beer-img-container{
+    height: 15rem;
+}
+
+.beer-img-container img {
+    width: auto;
+    height: 100%;
+}
+
+.random-info-container {
+    width: 50rem;
+}
+
+.random-info-container  h1{
+    margin-top: 2rem;
+}
+
+.random-info-container  h2{
+    margin-top: 2rem;
+}
+
+
+.random-info-container  p{
+    margin-top: 1rem;
+}
+
+.random-info-container  li{
+    padding-top: 0.3rem;
+}
+
+.random-info-container  .tagline{
+    color: grey;
+}
+
+.random-beer-container{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.random-img-container{
+   height: 20rem;
+   width: 30vw;
+   text-align: center;
+}
+
+.random-img-container img{
+    width: auto;
+    height: 100%;
+ }
+ 
+
