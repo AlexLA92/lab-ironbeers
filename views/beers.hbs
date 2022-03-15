@@ -1,12 +1,14 @@
 <div class = "beers-container">
     {{#each beers}}
         {{#with this}}
-            <div class = "beer-info">
-                <div class = "beer-img-container">
-                    <img src = {{this.image_url}}>
+            <a href="/beer-{{this.id}}">
+                <div class = "beer-info">
+                    <div class = "beer-img-container">
+                        <img src = {{this.image_url}}>
+                    </div>
+                    {{>beerpartial}}
                 </div>
-                {{>beerpartial}}
-            </div>
+            </a>
         {{/with}}
     {{/each}}
 </div>
